@@ -10,59 +10,61 @@
 </head>
 
 <body>
-    <a-scene> 
+    <a-scene>
         <!-- Lighting -->
         <a-light type="ambient" color="#445451"></a-light>
         <a-light type="point" intensity="2" position="2 4 4"></a-light>
+        
+        <!-- Camera -->
+        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+        
+        <!-- Project 1 Poster -->
+        <a-plane position="0 2 -6" rotation="0 0 0" width="3" height="4" color="#FFF">
+            <a-text value="Millburn Robotics" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/robot.png" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="I participate in the First Tech Challenge as a member of 23650 MillburnX, and previously as a member of 8405 Millburn Robotics. Both teams are a part of the extensive robotics program at my high school. This means that a lot of my time is spent building and coding robots." width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
+        
+        <!-- Project 2 Poster -->
+        <a-plane position="5.2 2 -3" rotation="0 -60 0" width="3" height="4" color="#FFF">
+            <a-text value="MediScribe" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/image2.jpg" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="Description of Project 2" width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
+        
+        <!-- Project 3 Poster -->
+        <a-plane position="5.2 2 3" rotation="0 -120 0" width="3" height="4" color="#FFF">
+            <a-text value="Security Kiosks" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/image3.jpg" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="Description of Project 3" width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
 
+        <!-- Project 4 Poster -->
+        <a-plane position="0 2 6" rotation="0 180 0" width="3" height="4" color="#FFF">
+            <a-text value="Plant Doctor" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/image4.jpg" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="Description of Project 4" width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
+        
+        <!-- Project 5 Poster -->
+        <a-plane position="-5.2 2 3" rotation="0 120 0" width="3" height="4" color="#FFF">
+            <a-text value="Boston Dynamics Spot" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/image5.jpg" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="Description of Project 5" width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
+        
+        <!-- Project 6 Poster -->
+        <a-plane position="-5.2 2 -3" rotation="0 60 0" width="3" height="4" color="#FFF">
+            <a-text value="Explore Millburn Website" width="2.8" color="#000" position="0 1.5 0.01" align="center"></a-text>
+            <a-image src="path/to/image6.jpg" width="2.8" height="1.5" position="0 0.2 0.01" align="center"></a-image>
+            <a-text value="Description of Project 6" width="2.8" color="#000" position="0 -1.5 0.01" align="center"></a-text>
+        </a-plane>
+        
         <!-- Ground -->
         <a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>
         
         <!-- Sky -->
         <a-sky color="#ECECEC"></a-sky>
-
-         <!-- Project 1 Poster -->
-         <a-plane position="0 1 -4" rotation="0 0 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 1" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image1.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 1" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-        
-        <!-- Project 2 Poster -->
-        <a-plane position="3.46 1 -2" rotation="0 -60 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 2" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image2.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 2" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-        
-        <!-- Project 3 Poster -->
-        <a-plane position="3.46 1 2" rotation="0 -120 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 3" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image3.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 3" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-
-        <!-- Project 4 Poster -->
-        <a-plane position="0 1 4" rotation="0 180 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 4" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image4.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 4" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-        
-        <!-- Project 5 Poster -->
-        <a-plane position="-3.46 1 2" rotation="0 120 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 5" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image5.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 5" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-        
-        <!-- Project 6 Poster -->
-        <a-plane position="-3.46 1 -2" rotation="0 60 0" width="2" height="3" color="#FFF">
-            <a-text value="Project 6" width="2" color="#000" position="0 1 0.01"></a-text>
-            <a-image src="path/to/image6.jpg" width="1.8" height="1" position="0 0.2 0.01"></a-image>
-            <a-text value="Description of Project 6" width="1.8" color="#000" position="0 -0.8 0.01" align="center"></a-text>
-        </a-plane>
-
     </a-scene>
 
     <script src="script.js"></script>
