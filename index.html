@@ -11,7 +11,15 @@
 
 <body>
     <a-scene> 
-        <a-box  position="0 1.5 -3" rotation="0 45 0" scale="2 2 2" color="red"></a-box>
+        <!-- Lighting -->
+        <a-light type="ambient" color="#445451"></a-light>
+        <a-light type="point" intensity="2" position="2 4 4"></a-light>
+
+        <!-- Ground -->
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>
+        
+        <!-- Sky -->
+        <a-sky color="#ECECEC"></a-sky>
     </a-scene>
 
     <script src="script.js"></script>
