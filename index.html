@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>My 3D Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>OldFashionedJelly 3D Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
 </head>
 
@@ -17,6 +17,10 @@
         
         <!-- Camera -->
         <a-entity camera look-controls position="0 1.6 0"></a-entity>
+
+        <!-- Text in the Sky -->
+        <a-text value="Welcome to OldFashionedJelly's 3D Portfolio" color="#000" position="0 5 -4" align="center" scale="2 2 2"></a-text>
+        <a-text value="I love robotics and programming, as well as music. Here is my personal website: https://oldfashionedjelly.github.io" color="#000" position="0 4 -4" align="center"></a-text>
         
         <!-- Project Posters -->
         <a-plane id="project1" class="poster" position="0 2 -6" rotation="0 0 0" width="3" height="4" color="#FFF">
@@ -56,7 +60,7 @@
         </a-plane>
         
         <!-- Ground -->
-        <a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="30" height="30" color="#7BC8A4"></a-plane>
         
         <!-- Sky -->
         <a-sky color="#ECECEC"></a-sky>
