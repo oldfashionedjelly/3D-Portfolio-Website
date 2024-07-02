@@ -1,0 +1,30 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styling for posters */
+.poster {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for text */
+a-text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* Styling for images */
+a-image {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
