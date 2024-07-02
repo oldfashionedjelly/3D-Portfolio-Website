@@ -1,1 +1,1 @@
-This is my attempt at making a 3D portfolio website using A-Frame. It was hard since I had never used A-Frame before, but I really enjoyed getting to learn it.
+This is my attempt at making a 3D portfolio website using A-Frame. I wanted to be able to display some of my personal projects in a cool 3D environment. It was originally made for Hack Club's Hackaccino. It was hard since I had never used A-Frame before, but I really enjoyed getting to learn it and will definitely use it again.
